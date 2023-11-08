@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento</title>
+    <link rel="stylesheet" href="css/stylesDesenvolvimento.css">
+</head>
+<body>
+    <div class="development">
+        <h2>Registro de Metas</h2>
+        <table>
+            <tr>
+                <th>Metas</th>
+                <th>Cumpri</th>
+                <th>Andamento</th>
+                <th>Iniciei</th>
+            </tr>
+            <tr>
+                <td>PERDER 1 KG</td>
+                <td><input type="checkbox" id="cumprido"></td>
+                <td><input type="checkbox" id="andamento"></td>
+                <td><input type="checkbox" id="iniciado"></td>
+            </tr>
+            <!-- Adicione mais linhas conforme necessário -->
+        </table>
+
+        <form class="add-goal-form">
+            <label for="nova-meta">Adicionar Meta:</label>
+            <input type="text" id="nova-meta" name="nova-meta">
+            <input type="submit" value="Adicionar">
+        </form>
+    </div>
+</body>
+</html>

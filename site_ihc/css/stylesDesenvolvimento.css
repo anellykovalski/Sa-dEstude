@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #024959;
+    color: #fff;
+    text-align: center;
+}
+
+.development {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+th {
+    background-color: #037e8c;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+.add-goal-form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 8px 20px;
+    background-color: #037e8c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #035e6c;
+}
