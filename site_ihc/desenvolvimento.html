@@ -25,11 +25,23 @@
             <!-- Adicione mais linhas conforme necessário -->
         </table>
 
-        <form class="add-goal-form">
+        <form class="add-goal-form" onsubmit="adicionarMeta(event)">
             <label for="nova-meta">Adicionar Meta:</label>
             <input type="text" id="nova-meta" name="nova-meta">
             <input type="submit" value="Adicionar">
         </form>
     </div>
+
+    <script>
+        function adicionarMeta(event) {
+            event.preventDefault(); // Impede o envio padrão do formulário
+
+            // Aqui você pode adicionar lógica para realmente adicionar a meta ao seu sistema
+
+            // Exibindo o popup
+            alert("Meta adicionada com sucesso!");
+        }
+    </script>
 </body>
 </html>
+

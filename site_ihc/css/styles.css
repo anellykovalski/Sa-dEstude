@@ -7,7 +7,7 @@ header {
 }
 
 .logo {
-    width: 800px;
+    width: 300px;
     height: auto;
     display: block;
 }
@@ -21,7 +21,7 @@ header {
 }
 
 .logo {
-    width: 100%;
+    width: 300px;
     height: auto;
     display: block;
 }
@@ -54,7 +54,7 @@ header {
 }
 
 .logo {
-    width: 100%;
+    width: 300px;
     height: auto;
     display: block;
 }
@@ -100,7 +100,40 @@ h5 {
 /* o restante do seu estilo CSS aqui */
 
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
+.header-container {
+    position: relative;
+}
+
+.header-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    color: #037e8c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+    color: #037e8c;
+}
 
 
 body {
@@ -149,4 +182,56 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #024959;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #fff;
+    color: #037e8c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+    color: #037e8c;
 }
